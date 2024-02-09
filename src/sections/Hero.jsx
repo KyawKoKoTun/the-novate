@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../components/button"; // Ensure the path is correct
+import Button from "../components/Button"; // Ensure the path is correct
 import bulb from "../assets/bulb.png";
 import vr from "../assets/vr.png";
 
