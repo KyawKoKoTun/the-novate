@@ -13,40 +13,21 @@ export default function Hero() {
 
   return (
     <>
-      <div className="p-24 bg-zinc-800" style={openingStyleTop}>
-   
-      </div>
-      <div className="w-full relative overflow-hidden">
-        <img
-          src={bulb}
-          className="absolute right-0 md:left-0 top-0 w-1/5 animate-float"
-          style={{
-            animationDuration: "10s",
-            animationIterationCount: "infinite",
-            animationTimingFunction: "ease-in-out",
-          }}
-        />
-        <img
-          src={vr}
-          className="absolute right-0 bottom-0 w-1/5 animate-float"
-          style={{
-            animationDuration: "8s",
-            animationDelay: "2s",
-            animationIterationCount: "infinite",
-            animationTimingFunction: "ease-in-out",
-          }}
-        />
+      <div id='home' ></div>
+      <div className="p-16 sticky z-40 top-0 bg-zinc-800" style={openingStyleTop}>
 
-        <div className="mx-auto w-fit mt-16 z-10 relative">
+      </div>
+      <div className="w-full px-[20px] sm:px-[80px] md:px-[140px] lg:px-[200px] relative overflow-hidden">
+        <div className="mt-16 z-10 relative">
           <h1 className="text-4xl lg:text-[100px] font-bold animate-bounce">
             The
           </h1>
-          <h1 className="text-8xl lg:text-[200px] font-bold animate-pulse">
+          <h1 className="text-8xl text-red-500 lg:text-[200px] font-bold animate-pulse">
             Novate
           </h1>
           <div>
             <Button
-              className="mt-8 animate-bounce"
+              className="mt-8"
               onClick={() => console.log("Button Clicked!")}
             >
               WHO ARE WE?

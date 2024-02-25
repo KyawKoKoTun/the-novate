@@ -4,7 +4,22 @@
 
 body 
 {
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(24 24 27);
+    color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Neon Glow Effect */
+.neon-glow-on-hover {
+  box-shadow: 0 0 5px #FF0000, /* Smaller, intense glow */
+              0 0 15px #FF0000, /* Medium glow */
+              0 0 30px #FF2844, /* Larger, diffused glow */
+              0 0 45px #FF2844, /* Even more diffused glow */
+              0 0 60px #FF2844; /* Outermost diffused glow */
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glow effect */
 }
 
 @keyframes expandTop {
