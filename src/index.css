@@ -12,6 +12,28 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Custom scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #2D3748; /* Match the dark theme, zinc-800 from Tailwind */
+  border-radius: 20px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #9B2C2C; /* Dark red, similar to bg-red-500 in Tailwind */
+  border-radius: 20px; /* Rounded corners for the thumb */
+  border: 3px solid #2D3748; /* Creates a slight border effect */
+}
+
+/* Optional: Style for scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #C53030; /* A lighter shade of red on hover */
+}
+
+
 /* Neon Glow Effect */
 .neon-glow-on-hover {
   box-shadow: 0 0 5px #FF0000, /* Smaller, intense glow */
