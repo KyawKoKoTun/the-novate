@@ -26,12 +26,14 @@ export default function Hero() {
             Novate
           </h1>
           <div>
+            <a href='#about'>
             <Button
               className="mt-8"
               onClick={() => console.log("Button Clicked!")}
             >
               WHO ARE WE?
             </Button>
+            </a>
           </div>
         </div>
       </div>
